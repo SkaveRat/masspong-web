@@ -1,13 +1,15 @@
 #board {
     margin: 20px;
     border: 1px solid #000;
-    width: 1000px;
-    height: 500px;
+    /*width: 1000px;*/
+    /*height: 500px;*/
 }
 
 #ball {
+    display: none;
     height: 20px;
     width: 20px;
     background-color: #000;
     position: relative;
+    top: -300px;
 }
