@@ -11,6 +11,20 @@
     top: -300px;
 }
 
+#score1 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 100px;
+}
+
+#score2 {
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    font-size: 100px;
+}
+
 #player1 {
     display: none;
     background-color: #000;
