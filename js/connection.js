@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var socket = new WebSocket("ws://localhost:8080/state");
-    var gridSize = 30;
+    var gridSize = 20;
 
     var $board = $('#board');
     var $ball = $('#ball');
